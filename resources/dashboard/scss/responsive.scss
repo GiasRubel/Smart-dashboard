@@ -1,0 +1,449 @@
+@import "custom";
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  //Order list header
+  .modify-header{
+    .input-one{
+      input{
+        margin-top: -35px;
+      }
+    }
+    .input-two{
+      select{
+        width: 100%;
+      }
+      button{
+        width: calc(100%/2 - 2px);
+        margin-top: 5px !important;
+      }
+    }
+    .modify-select{
+      select{
+        margin: 5px 0 !important;
+      }
+    }
+  }
+  //End Order list header
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  //Order list header
+  .modify-header{
+    .input-one{
+      input{
+        margin-top: -35px;
+      }
+    }
+    .input-two{
+      select{
+        width: 100%;
+      }
+      button{
+        width: calc(100%/2 - 2px);
+        margin-top: 5px !important;
+      }
+    }
+    .modify-select{
+      select{
+        margin: 5px 0 !important;
+      }
+    }
+  }
+  //End Order list header
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none;
+  }
+  .modify-mobile{
+    .dropdown-menu{
+      left: -115px;
+    }
+  }
+  .per-page{
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .filter-max-width{
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  // Add Payment
+  .add-payment-options{
+    .font-default-15{
+      padding-bottom: 15px;
+    }
+    .add-payment{
+      .form-group{
+        select{
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+  // End Add Payment
+
+  // Make Order
+  .make-order{
+    .make-order-table{
+      tr{
+        td{
+          .btn-trash{
+            position: relative;
+            button{
+              position: absolute;
+              right:-4px;
+              padding: 8px 7px;
+            }
+          }
+          &:last-child{
+            min-width: 75px;
+          }
+        }
+      }
+    }
+  }
+  // End Make Order
+
+  //Order list
+  .order-list-menu{
+    .card{
+      .card-body{
+        padding: 10px 5px;
+      }
+    }
+    .items-table{
+      table{
+        tr{
+          td{
+            &:first-child{
+              min-width: 100px;
+            }
+          }
+          &:last-child{
+            td{
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    .custom-table{
+      width: 100%;
+      .table-header{
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        background: $table-header;
+        border: 1px solid $table-border;
+        .table-column{
+          width: 28%;
+          text-align: center;
+          border-left: 1px solid $table-border;
+          float: left;
+          padding: 5px;
+          word-break: break-word;
+          &:first-child{
+            width: 10%;
+            border-left: none;
+          }
+        }
+      }
+      .table-body{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        .table-row{
+          height: auto;
+          overflow: hidden;
+          display: flex;
+          position: relative;
+          border: 1px solid $table-border;
+          border-top: none;
+          .table-column{
+            width: 30%;
+            text-align: center;
+            border-left: 1px solid $table-border;
+            float: left;
+            color: $black;
+            padding: 5px 5px 27px;
+            word-break: break-word;
+            &:first-child{
+              border-left: none;
+              width: 10%;
+            }
+          }
+          .action-button{
+            position: absolute;
+            right: 3px;
+            bottom: 3px;
+            button{
+              margin: 0 2px;
+              padding: 1px 5px;
+              border: none;
+              font-size: 16px;
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .modify-header{
+    .input-two{
+      select{
+        width: 100%;
+      }
+      button{
+        width: calc(100%/2 - 2px);
+        margin-top: 5px !important;
+      }
+    }
+    .modify-select{
+      select{
+        margin: 5px 0 !important;
+      }
+    }
+  }
+  //End Order list
+
+
+  .cart-list-responsive{
+    max-width: 100% !important;
+    flex: 100% !important;
+  }
+
+  //Card Item Responsive
+  .card-item-responsive{
+    .card-body{
+      .item-two-column{
+        tr{
+          td{
+            &:first-child{
+              width: 35%;
+            }
+          }
+        }
+      }
+    }
+  }
+  //End Card Item Responsive
+
+  //Search button
+  .search-button{
+    width: 100%;
+    float: left !important;
+    position: relative;
+    button{
+      position: absolute;
+      right: 7px;
+      top: 29px;
+    }
+    .form-inline{
+      display: flex;
+      button{
+        position: absolute;
+        right: 0;
+        top: -4px;
+      }
+    }
+  }
+  // End search button
+  //Tax rules
+  .tax-rules{
+    .tax-input{
+      max-width: 100% !important;
+      display: block;
+      margin: 5px 0 !important;
+    }
+  }
+  //End Tax rules
+  .serch-input{
+    input{
+      margin: 5px 0 !important;
+    }
+  }
+  .mobile-hide {
+    display: none;
+  }
+  //Header
+  .modify-mobile{
+    .dropdown-menu{
+      left: -140px;
+    }
+  }
+  //End Header
+
+  .main .container-fluid{
+    padding: 0 5px !important;
+  }
+
+  //Show cart item
+  .show-cart-item{
+    tr{
+      td{
+        &:last-child{
+          max-width: 255px;
+        }
+      }
+    }
+  }
+  //End Show cart item
+
+  //Order Page
+  .card-body{
+    table{
+      .action-btn-mobile{
+        width: fit-content !important;
+      }
+      td{
+        &:last-child{
+          width: fit-content;
+        }
+      }
+    }
+    .btn-primary{
+      margin: 5px 0;
+    }
+  }
+  .cart-user-type{
+    width: 100% !important;
+  }
+  .log-list{
+    overflow-x: auto;
+  }
+  .card-header{
+    button{
+      margin-top: 5px !important;
+    }
+    .float-right{
+      .form-inline{
+        button{
+          margin-top: 5px !important;
+          &:last-child{
+            margin-top: 0;
+          }
+        }
+      }
+    }
+    input{
+      margin: 3px 0;
+    }
+  }
+  .card-body{
+    .bg-info{
+
+    }
+    .table-mobile{
+      table{
+        tr{
+          td{
+            &:first-child{
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    .item-grand-total{
+      width: 100%;
+      background: #f0f3f5;
+      padding: 5px 15px;
+      margin-top: -18px;
+      height: auto;
+      overflow: hidden;
+      font-weight: 700;
+      border: 2px solid #ddd;
+      table{
+        width: 100%;
+        tr{
+          td{
+            font-weight: 700;
+            &:last-child{
+              text-align: right;
+              float: right;
+            }
+          }
+        }
+      }
+    }
+    input{
+      margin: 5px 0;
+    }
+  }
+  .btn-group{
+    .btn{
+      margin:0;
+    }
+  }
+
+  .animated{
+    .col-sm-6{
+      width:50%;
+    }
+    .modal-body{
+      .card{
+        overflow-x: scroll;
+      }
+    }
+  }
+
+  .shipment-Rate{
+    input{
+      margin: 5px 0;
+    }
+  }
+
+
+  .order-button{
+    flex-direction: column;
+    button{
+      display: block;
+      margin: 5px 0;
+      float: left;
+      padding: 3px;
+      width: 40px;
+      height: 35px;
+      &:first-child{
+        margin-left:0;
+      }
+    }
+  }
+  //End Order Page
+
+  .table {
+    th, td {
+      &:last-child{
+        min-width: 45px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+
+}

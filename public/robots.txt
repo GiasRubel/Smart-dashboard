@@ -1,0 +1,11 @@
+User-Agent: Googlebot
+Disallow: /js/
+Disallow: /css/
+Disallow: /backend/
+Disallow: /email/
+Disallow: /images/
+
+User-agent: *
+Disallow:
+
+sitemap: https://shopnshipbd.com/sitemap.xml

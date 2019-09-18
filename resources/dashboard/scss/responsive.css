@@ -1,0 +1,121 @@
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none; }
+
+  .modify-mobile .dropdown-menu {
+    left: -115px; }
+
+  .per-page {
+    padding-left: 0 !important; } }
+@media only screen and (max-width: 767px) {
+  .cart-list-responsive {
+    max-width: 100% !important;
+    flex: 100% !important; }
+
+  .search-button {
+    width: 100%;
+    float: left !important;
+    position: relative; }
+    .search-button button {
+      position: absolute;
+      right: 7px;
+      top: 29px; }
+    .search-button .form-inline {
+      display: flex; }
+      .search-button .form-inline button {
+        position: absolute;
+        right: 0;
+        top: -4px; }
+
+  .tax-rules .tax-input {
+    max-width: 100% !important;
+    display: block;
+    margin: 5px 0 !important; }
+
+  .serch-input input {
+    margin: 5px 0 !important; }
+
+  .mobile-hide {
+    display: none; }
+
+  .modify-mobile .dropdown-menu {
+    left: -140px; }
+
+  .main .container-fluid {
+    padding: 0 15px !important; }
+
+  .show-cart-item tr td:last-child {
+    max-width: 255px; }
+
+  .card-body table .action-btn-mobile {
+    width: fit-content !important; }
+  .card-body table td:last-child {
+    width: fit-content; }
+  .card-body .btn-primary {
+    margin: 5px 0; }
+
+  .cart-user-type {
+    width: 100% !important; }
+
+  .log-list {
+    overflow-x: auto; }
+
+  .card-header button {
+    margin-top: 5px !important; }
+  .card-header .float-right .form-inline button {
+    margin-top: 5px !important; }
+    .card-header .float-right .form-inline button:last-child {
+      margin-top: 0; }
+  .card-header input {
+    margin: 3px 0; }
+
+  .card-body .table-mobile table tr td:first-child {
+    font-weight: 700; }
+  .card-body .item-grand-total {
+    width: 100%;
+    background: #f0f3f5;
+    padding: 5px 15px;
+    margin-top: -18px;
+    height: auto;
+    overflow: hidden;
+    font-weight: 700;
+    border: 2px solid #ddd; }
+    .card-body .item-grand-total table {
+      width: 100%; }
+      .card-body .item-grand-total table tr td {
+        font-weight: 700; }
+        .card-body .item-grand-total table tr td:last-child {
+          text-align: right;
+          float: right; }
+  .card-body input {
+    margin: 5px 0; }
+
+  .btn-group .btn {
+    margin: 0; }
+
+  .animated .col-sm-6 {
+    width: 50%; }
+  .animated .modal-body .card {
+    overflow-x: scroll; }
+  .animated .modal-body .card-header {
+    background: transparent; }
+
+  .shipment-Rate input {
+    margin: 5px 0; }
+
+  .order-button {
+    flex-direction: column; }
+    .order-button button {
+      display: block;
+      margin: 5px 0;
+      float: left;
+      padding: 3px;
+      width: 40px;
+      height: 35px; }
+      .order-button button:first-child {
+        margin-left: 0; }
+
+  .table th:last-child, .table td:last-child {
+    min-width: 45px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */

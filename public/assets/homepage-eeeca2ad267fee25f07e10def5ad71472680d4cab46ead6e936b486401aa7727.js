@@ -1,0 +1,1 @@
+$(function(){if(window.matchMedia("(min-width: 768px)").matches&&$("#foreground").length>0&&$("#background").length>0&&$("#basha").length>0){var n=$("#foreground").height();$(window).bind("scroll",function(){var o=$(window).scrollTop();o>600&&(o=600),$("#foreground").css("height",n+o/6+"px"),$("background").css("top",-o/3+"px"),$("#basha").css("right",o/8+"px")})}});

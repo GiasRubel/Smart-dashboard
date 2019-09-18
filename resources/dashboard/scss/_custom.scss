@@ -1,0 +1,296 @@
+//Variables
+$black: #333;
+$light-black: #4c4c4c;
+$red: #e4425c;
+$dark-gray: #808080;
+$white: #fff;
+$green: #20c461;
+$light-green: #afd138;
+$orange: #fa8526;
+$light-blue: #448ccb;
+$dark-blue: #232037;
+$blue: #466cb3;
+$default: #44b3e6;
+$gold2: #f9ebc7;
+$gold: #f2cf77;
+$gold3: #efc661;
+$purple :#954ac9 ;
+$primary-light: #947ADA;
+$yellow : #ffc108;
+$table-header : #f0f3f5;
+$table-border : #c2cfd6;
+//End Variables
+
+//Common class
+.fullwidth{
+  width: 100%;
+}
+.one-half{
+  width: calc(100%/2);
+}
+.one-third{
+  width: calc(100%/3);
+}
+.one-quarter{
+  width: calc(100%/4);
+}
+//End Common class
+
+
+// Here you can add other styles
+@import "custom_variables";
+
+.table {
+  th, td {
+    padding: $table-padding;
+    &:last-child{
+      min-width: 135px;
+    }
+  }
+}
+
+.left{
+  display: block;
+  float: left;
+}
+
+.right{
+  display: block;
+  float: right;
+}
+
+.card-body{
+  input{
+    margin: 5px 0;
+  }
+}
+.dashboard-login{
+  input{
+    margin-top: 0 !important;
+  }
+}
+
+.text-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  input{
+    margin: 5px 0;
+  }
+}
+
+.serch-input{
+  input{
+    margin-top: 0;
+  }
+}
+
+table{
+  tr{
+    td{
+      word-break: break-word;
+    }
+  }
+}
+
+.cart-user-type{
+  display: inline-block;
+  width: calc(100%/3 - 15px);
+  &:first-child{
+    margin-left: 0;
+  }
+}
+
+.input-checkbox{
+  input{
+    margin-top: 0 !important;
+  }
+}
+
+.dashboard-grid{
+  .card-body{
+    cursor: pointer;
+    padding: 0;
+    .add-anchor{
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+//.page-link, .pagination-datatables li a, .pagination li a{
+//  cursor: pointer;
+//}
+
+.pagination{
+  li{
+    cursor: pointer;
+    a{
+      cursor: pointer;
+    }
+  }
+}
+
+//Admin Dashboard Status color classes
+.cancel{
+  background: $red;
+  color:  $white;
+}
+.cash-pending{
+  background: $yellow;
+  color:  $white;
+}
+.cleared-custom{
+  background: $light-green;
+  color:  $white;
+}
+.confirmed{
+  background: $green;
+  color:  $white;
+}
+.delivered{
+  background: $gold3;
+  color:  $white;
+}
+.dac-received{
+  background: $light-blue;
+  color:  $white;
+}
+.pending{
+  background: $yellow;
+  color:  $white;
+}
+.pending-custom-clearance{
+  background: $yellow;
+  color:  $white;
+}
+.pending-for-review{
+  background: $yellow;
+  color:  $white;
+}
+.review-complete{
+  background: $green;
+  color:  $white;
+}
+.transit{
+  background: $blue;
+  color:  $white;
+}
+.us-on-hand{
+  background: $default;
+  color:  $white;
+}
+.out-for-delivery{
+  background: $light-green;
+  color:  $white;
+}
+.partial-payment-pending{
+  background: $yellow;
+  color:  $white;
+}
+.partial-payment-cash-pending{
+  background: $yellow;
+  color:  $white;
+}
+.partial-payment-complete{
+  background: $green;
+  color:  $white;
+}
+
+.purchased{
+  background: $light-green;
+  color:  $white;
+}
+
+.shipped{
+  background: $light-green;
+  color:  $white;
+}
+//End Admin Dashboard Status color classes
+
+//Tax rules
+.tax-rules{
+  .tax-input{
+    max-width: 160px;
+    display: inline-block;
+    margin: 5px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  select{
+    padding: 6px;
+  }
+}
+//End Tax rules
+
+//Order list header
+.modify-header{
+  .input-two {
+    margin: 5px 0;
+  }
+  .modify-select{
+    select{
+      margin: 5px 0;
+    }
+  }
+}
+.order-payment{
+  tr{
+    th{
+      text-align: center;
+      &:first-child{
+        text-align: left;
+      }
+      &:last-child{
+        text-align: right;
+      }
+    }
+    td{
+      text-align: center;
+      &:first-child{
+        text-align: left;
+      }
+      &:last-child{
+        text-align: right;
+      }
+    }
+  }
+}
+
+.order-list-menu{
+  .items-table{
+    table{
+      th{
+        text-align: center;
+      }
+    }
+  }
+  .item-modal{
+    .item-header{
+      .float-right{
+        top: 10px;
+        position: absolute;
+        right: 13px;
+        color: #e4425c;
+        font-size: 18px;
+      }
+    }
+    table{
+      td{
+        padding: 5px;
+        &:first-child{
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+//End Order list header

@@ -1,0 +1,601 @@
+.fullwidth {
+  width: 100%;
+}
+
+.one-half {
+  width: calc(100%/2);
+}
+
+.one-third {
+  width: calc(100%/3);
+}
+
+.one-quarter {
+  width: calc(100%/4);
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 0.25rem;
+}
+
+.table th:last-child,
+.table td:last-child {
+  min-width: 135px;
+}
+
+.left {
+  display: block;
+  float: left;
+}
+
+.right {
+  display: block;
+  float: right;
+}
+
+.card-body input {
+  margin: 5px 0;
+}
+
+.dashboard-login input {
+  margin-top: 0 !important;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card input {
+  margin: 5px 0;
+}
+
+.serch-input input {
+  margin-top: 0;
+}
+
+table tr td {
+  word-break: break-word;
+}
+
+.cart-user-type {
+  display: inline-block;
+  width: calc(100%/3 - 15px);
+}
+
+.cart-user-type:first-child {
+  margin-left: 0;
+}
+
+.input-checkbox input {
+  margin-top: 0 !important;
+}
+
+.dashboard-grid .card-body {
+  cursor: pointer;
+  padding: 0;
+}
+
+.dashboard-grid .card-body .add-anchor {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination li {
+  cursor: pointer;
+}
+
+.pagination li a {
+  cursor: pointer;
+}
+
+.cancel {
+  background: #e4425c;
+  color: #fff;
+}
+
+.cash-pending {
+  background: #ffc108;
+  color: #fff;
+}
+
+.cleared-custom {
+  background: #afd138;
+  color: #fff;
+}
+
+.confirmed {
+  background: #20c461;
+  color: #fff;
+}
+
+.delivered {
+  background: #efc661;
+  color: #fff;
+}
+
+.dac-received {
+  background: #448ccb;
+  color: #fff;
+}
+
+.pending {
+  background: #ffc108;
+  color: #fff;
+}
+
+.pending-custom-clearance {
+  background: #ffc108;
+  color: #fff;
+}
+
+.pending-for-review {
+  background: #ffc108;
+  color: #fff;
+}
+
+.review-complete {
+  background: #20c461;
+  color: #fff;
+}
+
+.transit {
+  background: #466cb3;
+  color: #fff;
+}
+
+.us-on-hand {
+  background: #44b3e6;
+  color: #fff;
+}
+
+.out-for-delivery {
+  background: #afd138;
+  color: #fff;
+}
+
+.partial-payment-pending {
+  background: #ffc108;
+  color: #fff;
+}
+
+.partial-payment-cash-pending {
+  background: #ffc108;
+  color: #fff;
+}
+
+.partial-payment-complete {
+  background: #20c461;
+  color: #fff;
+}
+
+.purchased {
+  background: #afd138;
+  color: #fff;
+}
+
+.shipped {
+  background: #afd138;
+  color: #fff;
+}
+
+.tax-rules .tax-input {
+  max-width: 160px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.tax-rules .tax-input:first-child {
+  margin-left: 0;
+}
+
+.tax-rules select {
+  padding: 6px;
+}
+
+.modify-header .input-two {
+  margin: 5px 0;
+}
+
+.modify-header .modify-select select {
+  margin: 5px 0;
+}
+
+.order-payment tr th {
+  text-align: center;
+}
+
+.order-payment tr th:first-child {
+  text-align: left;
+}
+
+.order-payment tr th:last-child {
+  text-align: right;
+}
+
+.order-payment tr td {
+  text-align: center;
+}
+
+.order-payment tr td:first-child {
+  text-align: left;
+}
+
+.order-payment tr td:last-child {
+  text-align: right;
+}
+
+.order-list-menu .items-table table th {
+  text-align: center;
+}
+
+.order-list-menu .item-modal .item-header .float-right {
+  top: 10px;
+  position: absolute;
+  right: 13px;
+  color: #e4425c;
+  font-size: 18px;
+}
+
+.order-list-menu .item-modal table td {
+  padding: 5px;
+}
+
+.order-list-menu .item-modal table td:first-child {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .modify-header .input-one input {
+    margin-top: -35px;
+  }
+
+  .modify-header .input-two select {
+    width: 100%;
+  }
+
+  .modify-header .input-two button {
+    width: calc(100%/2 - 2px);
+    margin-top: 5px !important;
+  }
+
+  .modify-header .modify-select select {
+    margin: 5px 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .modify-header .input-one input {
+    margin-top: -35px;
+  }
+
+  .modify-header .input-two select {
+    width: 100%;
+  }
+
+  .modify-header .input-two button {
+    width: calc(100%/2 - 2px);
+    margin-top: 5px !important;
+  }
+
+  .modify-header .modify-select select {
+    margin: 5px 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none;
+  }
+
+  .modify-mobile .dropdown-menu {
+    left: -115px;
+  }
+
+  .per-page {
+    padding-left: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .filter-max-width {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .add-payment-options .font-default-15 {
+    padding-bottom: 15px;
+  }
+
+  .add-payment-options .add-payment .form-group select {
+    margin: 5px 0;
+  }
+
+  .make-order .make-order-table tr td .btn-trash {
+    position: relative;
+  }
+
+  .make-order .make-order-table tr td .btn-trash button {
+    position: absolute;
+    right: -4px;
+    padding: 8px 7px;
+  }
+
+  .make-order .make-order-table tr td:last-child {
+    min-width: 75px;
+  }
+
+  .order-list-menu .card .card-body {
+    padding: 10px 5px;
+  }
+
+  .order-list-menu .items-table table tr td:first-child {
+    min-width: 100px;
+  }
+
+  .order-list-menu .items-table table tr:last-child td {
+    font-weight: 700;
+  }
+
+  .order-list-menu .custom-table {
+    width: 100%;
+  }
+
+  .order-list-menu .custom-table .table-header {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    background: #f0f3f5;
+    border: 1px solid #c2cfd6;
+  }
+
+  .order-list-menu .custom-table .table-header .table-column {
+    width: 28%;
+    text-align: center;
+    border-left: 1px solid #c2cfd6;
+    float: left;
+    padding: 5px;
+    word-break: break-word;
+  }
+
+  .order-list-menu .custom-table .table-header .table-column:first-child {
+    width: 10%;
+    border-left: none;
+  }
+
+  .order-list-menu .custom-table .table-body {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row {
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    border: 1px solid #c2cfd6;
+    border-top: none;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row .table-column {
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid #c2cfd6;
+    float: left;
+    color: #333;
+    padding: 5px 5px 27px;
+    word-break: break-word;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row .table-column:first-child {
+    border-left: none;
+    width: 10%;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row .action-button {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row .action-button button {
+    margin: 0 2px;
+    padding: 1px 5px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .order-list-menu .custom-table .table-body .table-row .action-button button:last-child {
+    margin-right: 0;
+  }
+
+  .modify-header .input-two select {
+    width: 100%;
+  }
+
+  .modify-header .input-two button {
+    width: calc(100%/2 - 2px);
+    margin-top: 5px !important;
+  }
+
+  .modify-header .modify-select select {
+    margin: 5px 0 !important;
+  }
+
+  .cart-list-responsive {
+    max-width: 100% !important;
+    flex: 100% !important;
+  }
+
+  .card-item-responsive .card-body .item-two-column tr td:first-child {
+    width: 35%;
+  }
+
+  .search-button {
+    width: 100%;
+    float: left !important;
+    position: relative;
+  }
+
+  .search-button button {
+    position: absolute;
+    right: 7px;
+    top: 29px;
+  }
+
+  .search-button .form-inline {
+    display: flex;
+  }
+
+  .search-button .form-inline button {
+    position: absolute;
+    right: 0;
+    top: -4px;
+  }
+
+  .tax-rules .tax-input {
+    max-width: 100% !important;
+    display: block;
+    margin: 5px 0 !important;
+  }
+
+  .serch-input input {
+    margin: 5px 0 !important;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .modify-mobile .dropdown-menu {
+    left: -140px;
+  }
+
+  .main .container-fluid {
+    padding: 0 5px !important;
+  }
+
+  .show-cart-item tr td:last-child {
+    max-width: 255px;
+  }
+
+  .card-body table .action-btn-mobile {
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+
+  .card-body table td:last-child {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .card-body .btn-primary {
+    margin: 5px 0;
+  }
+
+  .cart-user-type {
+    width: 100% !important;
+  }
+
+  .log-list {
+    overflow-x: auto;
+  }
+
+  .card-header button {
+    margin-top: 5px !important;
+  }
+
+  .card-header .float-right .form-inline button {
+    margin-top: 5px !important;
+  }
+
+  .card-header .float-right .form-inline button:last-child {
+    margin-top: 0;
+  }
+
+  .card-header input {
+    margin: 3px 0;
+  }
+
+  .card-body .table-mobile table tr td:first-child {
+    font-weight: 700;
+  }
+
+  .card-body .item-grand-total {
+    width: 100%;
+    background: #f0f3f5;
+    padding: 5px 15px;
+    margin-top: -18px;
+    height: auto;
+    overflow: hidden;
+    font-weight: 700;
+    border: 2px solid #ddd;
+  }
+
+  .card-body .item-grand-total table {
+    width: 100%;
+  }
+
+  .card-body .item-grand-total table tr td {
+    font-weight: 700;
+  }
+
+  .card-body .item-grand-total table tr td:last-child {
+    text-align: right;
+    float: right;
+  }
+
+  .card-body input {
+    margin: 5px 0;
+  }
+
+  .btn-group .btn {
+    margin: 0;
+  }
+
+  .animated .col-sm-6 {
+    width: 50%;
+  }
+
+  .animated .modal-body .card {
+    overflow-x: scroll;
+  }
+
+  .shipment-Rate input {
+    margin: 5px 0;
+  }
+
+  .order-button {
+    flex-direction: column;
+  }
+
+  .order-button button {
+    display: block;
+    margin: 5px 0;
+    float: left;
+    padding: 3px;
+    width: 40px;
+    height: 35px;
+  }
+
+  .order-button button:first-child {
+    margin-left: 0;
+  }
+
+  .table th:last-child,
+  .table td:last-child {
+    min-width: 45px !important;
+  }
+}
+
